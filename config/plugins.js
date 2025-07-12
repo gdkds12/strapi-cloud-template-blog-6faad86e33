@@ -1,4 +1,9 @@
 module.exports = () => ({
+  'populate-deep': {
+    config: {
+      defaultDepth: 5, // 필요 깊이
+    },
+  },
   graphql: {
     enabled: true,
     config: {
